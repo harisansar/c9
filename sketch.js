@@ -1,16 +1,11 @@
-var r = 0
-var g = 0
-var b = 0
+
 function setup() {
   createCanvas(400,400);
-  var redbutton = createButton()
-  redbutton.position(100,50)
-  redbutton.mousePressed(red_bg)
-}
+  }
 
 function draw() 
 {
-  background(r,g,b);
+  background(30);
   if(keyIsDown(UP_ARROW))
   {
     background('yellow')
@@ -31,11 +26,7 @@ function draw()
 
 }
 
-function red_bg(){
-  r=255
-  g=0
-  b=0
-}
+
 
 
 
